@@ -1,0 +1,12 @@
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.AssemblyInfoInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.AssemblyInfo.cs
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.csproj.CoreCompileInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\bin\Debug\net7.0\MyWeb.Models.deps.json
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\bin\Debug\net7.0\MyWeb.Models.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\bin\Debug\net7.0\MyWeb.Models.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.csproj.AssemblyReference.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\refint\MyWeb.Models.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\MyWeb.Models.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Models\obj\Debug\net7.0\ref\MyWeb.Models.dll

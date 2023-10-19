@@ -1,0 +1,11 @@
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.deps.json
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.AssemblyInfoInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.AssemblyInfo.cs
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.csproj.CoreCompileInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\refint\MyWeb.Utility.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\ref\MyWeb.Utility.dll

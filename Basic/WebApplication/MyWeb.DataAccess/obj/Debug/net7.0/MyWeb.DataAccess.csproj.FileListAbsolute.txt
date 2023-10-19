@@ -1,0 +1,15 @@
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.AssemblyInfoInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.AssemblyInfo.cs
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.csproj.CoreCompileInputs.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\bin\Debug\net7.0\MyWeb.DataAccess.deps.json
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\bin\Debug\net7.0\MyWeb.DataAccess.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\bin\Debug\net7.0\MyWeb.DataAccess.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\bin\Debug\net7.0\MyWeb.Models.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\bin\Debug\net7.0\MyWeb.Models.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.csproj.AssemblyReference.cache
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.csproj.CopyComplete
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\refint\MyWeb.DataAccess.dll
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\MyWeb.DataAccess.pdb
+D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.DataAccess\obj\Debug\net7.0\ref\MyWeb.DataAccess.dll

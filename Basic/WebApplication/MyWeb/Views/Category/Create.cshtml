@@ -1,0 +1,39 @@
+﻿@model MyWeb.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            @* ModelOnly: show errors when only having errors with Model *@
+            @* All: show all errors (include errors when checking in controller) *@
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CaterogyName" class="control-label"></label>
+                <input asp-for="CaterogyName" class="form-control" />
+                <span asp-validation-for="CaterogyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DisplayOrder" class="control-label"></label>
+                <input asp-for="DisplayOrder" class="form-control" />
+                <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3 mb-3">
+                <button type="submit" class="btn btn-primary mt-3 mb-3">Create</button>
+                <a class="btn btn-primary mt-3 mb-3" asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@* Client side validation. Everything in controller is server side validation *@
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,44 @@
+﻿@page
+@model MyWeb_RazorPage.Pages.Categories.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<partial name="_Notification" />
+<p>
+    <a asp-page="./Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Categories[0].CaterogyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categories[0].DisplayOrder)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Categories)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaterogyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayOrder)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CategoryID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CategoryID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CategoryID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
