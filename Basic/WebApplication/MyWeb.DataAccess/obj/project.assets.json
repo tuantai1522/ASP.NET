@@ -2642,11 +2642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
+      "projectUniqueName": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
       "projectName": "MyWeb.DataAccess",
-      "projectPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
+      "projectPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.DataAccess\\obj\\",
+      "outputPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2663,8 +2663,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {
-              "projectPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj"
+            "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {
+              "projectPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj"
             }
           }
         }

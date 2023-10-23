@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GOlUqfL8Y1OJlg9gXVYk+tKMnsn/Fp8lerJiRO98QobZlSlA40ewBucTT+D5Fab/VfkK+s16Bp1AG57i3p1wFA==",
+  "dgSpecHash": "DLJeeaD7X69ABu4OByjf6EkQm1yYkho4zfq5M5oz82E5M5/RkJZ4sdjdrP+ha62SCjnaxSJ12DXRCJ4nZ6k9yg==",
   "success": true,
-  "projectFilePath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
+  "projectFilePath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

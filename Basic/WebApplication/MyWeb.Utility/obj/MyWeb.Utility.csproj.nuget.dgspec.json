@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj": {}
+    "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj": {}
   },
   "projects": {
-    "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj": {
+    "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj",
+        "projectUniqueName": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj",
         "projectName": "MyWeb.Utility",
-        "projectPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj",
+        "projectPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Utility\\MyWeb.Utility.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Utility\\obj\\",
+        "outputPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

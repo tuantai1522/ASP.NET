@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {}
+    "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {}
   },
   "projects": {
-    "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {
+    "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
+        "projectUniqueName": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
         "projectName": "MyWeb.Models",
-        "projectPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
+        "projectPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\MyWeb.Models.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.Models\\obj\\",
+        "outputPath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

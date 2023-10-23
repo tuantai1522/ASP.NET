@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5XjHcvg8JX6c7Gw2Jn9UvAG0TlPNb98T1vRNsplGai+pHurHx0ijPKDewPdCx8CXWhyRp7Wh12e6ngg1TeQag==",
+  "dgSpecHash": "mu0Uo7EEO+u35p0MJiSiMWUVItYGZSx9BLLWBQQOhvCZqWQEWOCOhApaj3dA8zmj2klNzaA8F/Vp3SHpefMlyQ==",
   "success": true,
-  "projectFilePath": "D:\\Học\\ASP.NET\\Project 1\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
+  "projectFilePath": "D:\\Repiratory Github\\ASP.NET\\ASP.NET\\Basic\\WebApplication\\MyWeb.DataAccess\\MyWeb.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
