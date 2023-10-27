@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MyWeb.Models.Category>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+@* Show notifications *@
+<partial name="_Notification"/>
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CategoryID)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.DisplayOrder)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr class="table-light">
+            <th scopr="row">
+
+                    @Html.DisplayFor(modelItem => item.CategoryID)
+            </th>
+            <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayOrder)
+            </td>
+            <td>
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.CategoryID">Edit</a>
+                <a class ="btn btn-info" asp-action="Details" asp-route-id="@item.CategoryID">Details</a>
+                <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.CategoryID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

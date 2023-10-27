@@ -12,11 +12,11 @@ namespace MyWeb.DataAccess.Repository.IRepository
         //don't save UPDATE function in Repository
 
         //T - Category
-        IEnumerable<T> GetAll(); //get all T
+        IEnumerable<T> GetAll(string? includeProperties = null); //get all T
 
 
         //Expression: like we write in FirstOrDefault
-        T GetFirstOrDefault(Expression<Func<T, bool>> filter);  //get one with id
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null);  //get one with id
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);

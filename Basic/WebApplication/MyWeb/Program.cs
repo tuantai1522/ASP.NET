@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using MyWeb.DataAccess;
 using MyWeb.DataAccess.Repository;
 using MyWeb.DataAccess.Repository.IRepository;
-using MyWeb.DataAcess;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +31,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

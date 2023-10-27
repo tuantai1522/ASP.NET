@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyWeb.DataAcess;
+using MyWeb.DataAccess;
 
 #nullable disable
 
-namespace MyWeb.DataAcess.Migrations
+namespace MyWeb.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -16,7 +16,7 @@ namespace MyWeb.DataAcess.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.12")
+                .HasAnnotation("ProductVersion", "7.0.13")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -29,7 +29,7 @@ namespace MyWeb.DataAcess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryID"));
 
-                    b.Property<string>("CaterogyName")
+                    b.Property<string>("CategoryName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -44,21 +44,154 @@ namespace MyWeb.DataAcess.Migrations
                         new
                         {
                             CategoryID = 1,
-                            CaterogyName = "Food and beverage",
+                            CategoryName = "Áo nam",
                             DisplayOrder = 1
                         },
                         new
                         {
                             CategoryID = 2,
-                            CaterogyName = "Fast food",
+                            CategoryName = "Áo nữ",
                             DisplayOrder = 2
                         },
                         new
                         {
                             CategoryID = 3,
-                            CaterogyName = "Spicy food",
+                            CategoryName = "Quần nam",
                             DisplayOrder = 3
+                        },
+                        new
+                        {
+                            CategoryID = 4,
+                            CategoryName = "Quần nữ",
+                            DisplayOrder = 4
+                        },
+                        new
+                        {
+                            CategoryID = 5,
+                            CategoryName = "Giày nam",
+                            DisplayOrder = 5
+                        },
+                        new
+                        {
+                            CategoryID = 6,
+                            CategoryName = "Giày nữ",
+                            DisplayOrder = 6
                         });
+                });
+
+            modelBuilder.Entity("MyWeb.Models.Product", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"));
+
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductID");
+
+                    b.HasIndex("CategoryID");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductID = 1,
+                            CategoryID = 1,
+                            Description = "Áo thun nam trắng",
+                            ImageUrl = "",
+                            ListPrice = 40.0,
+                            Price = 40.0,
+                            Price100 = 30.0,
+                            Price50 = 35.0,
+                            ProductName = "Áo T-Shirt Together"
+                        },
+                        new
+                        {
+                            ProductID = 2,
+                            CategoryID = 1,
+                            Description = "Áo thun nam trắng",
+                            ImageUrl = "",
+                            ListPrice = 80.0,
+                            Price = 80.0,
+                            Price100 = 70.0,
+                            Price50 = 75.0,
+                            ProductName = "Áo phông SandBoxWrangler"
+                        },
+                        new
+                        {
+                            ProductID = 3,
+                            CategoryID = 1,
+                            Description = "Áo thun nam xanh",
+                            ImageUrl = "",
+                            ListPrice = 95.0,
+                            Price = 95.0,
+                            Price100 = 85.0,
+                            Price50 = 90.0,
+                            ProductName = "Áo Polo Cotton"
+                        },
+                        new
+                        {
+                            ProductID = 4,
+                            CategoryID = 1,
+                            Description = "Áo thun nam xanh",
+                            ImageUrl = "",
+                            ListPrice = 20.0,
+                            Price = 20.0,
+                            Price100 = 10.0,
+                            Price50 = 15.0,
+                            ProductName = "Áo phông oversize"
+                        },
+                        new
+                        {
+                            ProductID = 5,
+                            CategoryID = 1,
+                            Description = "Áo thun nam hồng",
+                            ImageUrl = "",
+                            ListPrice = 100.0,
+                            Price = 100.0,
+                            Price100 = 90.0,
+                            Price50 = 95.0,
+                            ProductName = "Áo phông in hình sao biển"
+                        });
+                });
+
+            modelBuilder.Entity("MyWeb.Models.Product", b =>
+                {
+                    b.HasOne("MyWeb.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<MyWeb.Models.Product>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+
+@* Show notifications *@
+<partial name="_Notification"/>
+<p class="mt-5 mb-3">
+    <a class="btn btn-primary" asp-action="Upsert">Create New</a>
+</p>
+
+<h1>List products</h1>
+
+@* <div class="container">
+    <div class="row row-cols-3">
+        @foreach (var item in Model)
+        {
+            <div class="col g-3">
+                <div class="card" style="height:100%">
+                    <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Product image">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>@Html.DisplayFor(modelItem => item.ProductName)</strong></h5>
+                        <p class="card-title">Price: <strong>@Html.DisplayFor(modelItem => item.Price)</strong></p>
+                        <p class="card-title">Description: <strong>@Html.DisplayFor(modelItem => item.Description)</strong></p>
+                        <p class="card-title">@Html.DisplayNameFor(model => model.Category.CategoryName): <strong>@Html.DisplayFor(modelItem => item.Category.CategoryName)</strong></p>
+                        <a class="btn btn-success" asp-action="Upsert" asp-route-id="@item.ProductID">Edit</a>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.ProductID">Details</a>
+                        <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>
+ *@
+<div style="width:100%" class="container">
+    <table id="productData" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ProductName</th>
+                <th>Description</th>
+                <th>ListPrice</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+    </table>
+ </div>
+
+ @section Scripts{
+     <script src="~/js/product.js "></script>
+ }

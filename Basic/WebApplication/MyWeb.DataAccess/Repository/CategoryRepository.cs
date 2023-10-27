@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyWeb.DataAccess;
 using MyWeb.DataAccess.Repository.IRepository;
-using MyWeb.DataAcess;
 using MyWeb.Models;
 using System;
 using System.Collections.Generic;

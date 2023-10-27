@@ -10,6 +10,7 @@ namespace MyWeb.DataAccess.Repository.IRepository
     public interface IUnitOfWork
     {
         ICategoryRepository Category { get; }
+        IProductRepository Product { get; }
 
         void Save(); //save is used for all 
     }

@@ -9,3 +9,14 @@ D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.U
 D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\refint\MyWeb.Utility.dll
 D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.pdb
 D:\Học\ASP.NET\Project 1\WebApplication\MyWeb.Utility\obj\Debug\net7.0\ref\MyWeb.Utility.dll
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.deps.json
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.dll
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\bin\Debug\net7.0\MyWeb.Utility.pdb
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.AssemblyInfoInputs.cache
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.AssemblyInfo.cs
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.csproj.CoreCompileInputs.cache
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.dll
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\refint\MyWeb.Utility.dll
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\MyWeb.Utility.pdb
+D:\Repiratory Github\ASP.NET\ASP.NET\Basic\WebApplication\MyWeb.Utility\obj\Debug\net7.0\ref\MyWeb.Utility.dll

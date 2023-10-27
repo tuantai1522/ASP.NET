@@ -1,0 +1,80 @@
+﻿@model ProductVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@* if create => Product doesn't have any id *@
+<h1>@(Model.Product.ProductID != 0 ? "Update" : "Create") </h1>
+
+<h4>Product</h4>
+<hr />
+    <div class="row">
+        <form asp-action="Upsert" method="post" enctype="multipart/form-data">
+            @* ModelOnly: show errors when only having errors with Model *@
+            @* All: show all errors (include errors when checking in controller) *@
+        <input asp-for="Product.ProductID" hidden />
+        <input asp-for="Product.ImageUrl" hidden /> @* to create input field so controller can get infor of this picture *@
+            <div class="row">
+                <div class="col-8">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Product.ProductName" class="control-label"></label>
+                        <input asp-for="Product.ProductName" class="form-control" />
+                        <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.Description" class="control-label"></label>
+                        <input asp-for="Product.Description" class="form-control" />
+                        <span asp-validation-for="Product.Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.ListPrice" class="control-label"></label>
+                        <input asp-for="Product.ListPrice" class="form-control" />
+                        <span asp-validation-for="Product.ListPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.Price" class="control-label"></label>
+                        <input asp-for="Product.Price" class="form-control" />
+                        <span asp-validation-for="Product.Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.Price50" class="control-label"></label>
+                        <input asp-for="Product.Price50" class="form-control" />
+                        <span asp-validation-for="Product.Price50" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.Price100" class="control-label"></label>
+                        <input asp-for="Product.Price100" class="form-control" />
+                        <span asp-validation-for="Product.Price100" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.ImageUrl" class="control-label"></label>
+                        <input type="file" name="file" asp-for="Product.ImageUrl" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Product.CategoryID" class="control-label"></label>
+                        <select asp-for="@Model.Product.CategoryID" asp-items="@Model.CategoryList" class="form-select">
+                            <option disabled selected></option>
+                        </select>
+
+                        <span asp-validation-for="Product.CategoryID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3 mb-3">
+                        <button type="submit" class="btn btn-primary mt-3 mb-3">@(Model.Product.ProductID != 0 ? "Update" : "Create")</button>
+                        <a class="btn btn-primary mt-3 mb-3" asp-action="Index">Back to List</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                <img style="width:100%" src="@Model.Product.ImageUrl" />
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+@* Client side validation. Everything in controller is server side validation *@
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
